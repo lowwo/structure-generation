@@ -72,4 +72,12 @@ if __name__ == "__main__":
         image_height=500,
         sphere_radius=30,
         shell_thickness=10,
-        max_spheres
+        max_spheres=200,
+        max_attempts=5000
+    )
+    
+    # 显示图像
+    img.show()
+    
+    # 保存图像
+    img.save("E:\daore\daorehollow_spheres1231.png")
